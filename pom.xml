@@ -403,6 +403,18 @@
             <version>1.14</version>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>ws-cleanup</artifactId>
+            <version>0.33</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>resource-disposer</artifactId>
+            <version>0.6</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <repositories>
