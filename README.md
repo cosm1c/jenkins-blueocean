@@ -1,5 +1,5 @@
 Build to produce Jenking WAR with blueocean and latest plugin updates.
 
 ```
-mvn hpi:custom-war
+rm -rf ~/.jenkins/ && mvn clean hpi:custom-war && java -jar target/jenkins-blueocean.war
 ```
